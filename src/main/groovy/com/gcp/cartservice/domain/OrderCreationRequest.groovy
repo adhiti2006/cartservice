@@ -1,6 +1,7 @@
 package com.gcp.cartservice.domain
 
-class OrderItem {
+class OrderCreationRequest {
     String id
+    String quantity
     String condition
 }
